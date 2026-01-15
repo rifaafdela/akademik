@@ -10,15 +10,27 @@
       <ul class="navbar-nav ms-auto">
 
         <li class="nav-item">
-          <a class="nav-link <?= ($page=='home')?'active':'' ?>" href="index.php">Home</a>
+          <a class="nav-link <?= ($page=='home')?'active':'' ?>" href="index.php">
+            Home
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link <?= ($page=='mahasiswa')?'active':'' ?>" href="index.php">Mahasiswa</a>
+          <a class="nav-link <?= ($page=='mahasiswa')?'active':'' ?>" href="mahasiswa.php">
+            Mahasiswa
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link <?= ($page=='prodi')?'active':'' ?>" href="prodi.php">Prodi</a>
+          <a class="nav-link <?= ($page=='prodi')?'active':'' ?>" href="prodi.php">
+            Prodi
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="logout.php">
+            Logout
+          </a>
         </li>
 
       </ul>
